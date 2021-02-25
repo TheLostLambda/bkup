@@ -1,0 +1,8 @@
+[Unit]
+Description=Backup CUBE Server
+
+[Service]
+Type=oneshot
+ExecStart=/home/alarm/BKUP_Server.sh
+Restart=on-failure
+RestartSec=300
